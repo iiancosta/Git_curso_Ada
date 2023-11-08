@@ -7,21 +7,32 @@ Vemos qual é a situação que os arquivos estão, se houve alguma modificação
 ## git diff
 Mostra as modificações no arquivo após um add.
 
-. git diff --staged
+* git diff --staged
 Mostra todas as modificações do arquivo após o commit.
 
 ## git add
 Usado para adicionar o que será comitado.
-'use "git add <file>..." to update what will be committed'
+* 'use "git add <file>..." to update what will be committed'
 
 ## git log
 Apresenta o histórico de commits feitos.
+* Use 'git log --oneline --decorate' para veirificar o branch principal
 
 ## git restore
 Dá um crtl+z no arquivo.
 
-. git restore --staged <file>
+* git restore --staged <file>
 Retira o arquivo do staged (remove o add) e vai para área de modificado.
 
 ## git push
 Envia os commits para o repisitório remoto.
+
+## git pull
+Adiciona tudo que está no repositório remoto para o local.
+
+## git fetch
+Apresenta as modificações que o repositório remoto tem para serem adicionadas com o pull.
+* use git diff origin/master para visualizar
+
+## git branch
+Use git branch 'nova-branch' para criar uma nova branch
