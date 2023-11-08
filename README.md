@@ -13,3 +13,15 @@ Mostra todas as modificações do arquivo após o commit.
 ## git add
 Usado para adicionar o que será comitado.
 'use "git add <file>..." to update what will be committed'
+
+## git log
+Apresenta o histórico de commits feitos.
+
+## git restore
+Dá um crtl+z no arquivo.
+
+. git restore --staged <file>
+Retira o arquivo do staged (remove o add) e vai para área de modificado.
+
+## git push
+Envia os commits para o repisitório remoto.
