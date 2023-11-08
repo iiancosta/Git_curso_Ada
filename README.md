@@ -35,4 +35,8 @@ Apresenta as modificações que o repositório remoto tem para serem adicionadas
 * use git diff origin/master para visualizar
 
 ## git branch
-Use git branch 'nova-branch' para criar uma nova branch
+* Use "git branch" para ver as branchs que existem e a atual 
+* Use "git branch 'nova-branch'" para criar uma nova branch
+
+## git merge
+Utilizado para mesclar diferentes branchs. É interessante que se observe as modificações feitas para que caso sejam feitas modificações em um único arquivo corrija-se antes que entre em algum conflito.
